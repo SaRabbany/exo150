@@ -1,0 +1,472 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  background: #00101d;
+  color: #fcfcfc;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 42px;
+  color: #87deea;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+span {
+  color: #87deea;
+  font-weight: bold;
+}
+
+header .navbar {
+  background-color: #12150e;
+}
+
+header .navbar .navbar-brand img {
+  width: 100%;
+  height: 50px;
+}
+
+header .navbar .navbar-toggler {
+  border: 3px solid #fff;
+  padding: 5px 10px;
+}
+
+header .navbar .navbar-toggler i {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+header .navbar ul li a {
+  color: #87dcea;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+header .navbar ul li :hover {
+  color: white;
+}
+
+.introduction {
+  margin-top: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.introduction .overflow-hidden .headInner {
+  margin-top: 30px;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .introduction .overflow-hidden .headInner {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+.introduction .overflow-hidden .headInner p {
+  text-align: left;
+}
+
+.introduction .overflow-hidden .headInner p span {
+  color: #87deea;
+}
+
+.exoSwap {
+  margin-top: 50px;
+  background-image: url(images/bg1.png);
+  background-size: cover;
+  padding-top: 30px;
+}
+
+.exoSwap h1 {
+  text-align: center;
+}
+
+.exoSwap h2 {
+  font-size: 22px;
+  text-align: center;
+  padding: 10px 50px;
+}
+
+.exoSwap .contentSwap {
+  float: right;
+  padding: 0 10px 20px 100px;
+}
+
+.exoSwap .contentSwap p {
+  text-align: left;
+}
+
+.exoSwap .imgSwap {
+  float: right;
+}
+
+@media screen and (max-width: 768px) {
+  .exoSwap h2 {
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+  }
+  .exoSwap .contentSwap {
+    padding: 10px;
+  }
+  .exoSwap p {
+    text-align: center !important;
+    padding: 10px;
+  }
+}
+
+.exoLock {
+  margin-top: 50px;
+}
+
+.exoLock h1 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 5rem;
+}
+
+.exoLock h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  margin: 3% 0;
+  cursor: pointer;
+  text-shadow: -5px -4px 10px #07eaf8;
+  color: #07eaf8;
+  padding-left: 50px;
+}
+
+.exoLock p {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .exoLock h1 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  .exoLock .col-md-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .exoLock .col-md-4 h3 {
+    font-size: 18px;
+  }
+}
+
+.cyberExp {
+  background-image: url(images/bg1.png);
+  background-size: cover;
+  background-position: center center;
+  margin: 100px 0;
+}
+
+.cyberExp h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.cyberExp .circleWrapper .row .experience_expCircleContainer {
+  width: 140px;
+  height: 140px;
+  border: 3px solid #87deea;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 6px 25px 8px #87deea,inset 0 0 10px 2px #fff;
+          box-shadow: 0 6px 25px 8px #87deea,inset 0 0 10px 2px #fff;
+  border-radius: 132px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cyberExp .circleWrapper .row .experience_expCircleContainer h3 {
+  color: #fcfcfc;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.cyberExp .circleWrapper .row p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.cyberExp .exoStart {
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+  .cyberExp h1 {
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }
+}
+
+.exoTools {
+  background-image: url(images/bg3.png);
+  background-size: cover;
+}
+
+.exoTools .exoToolContent {
+  padding-right: 50px;
+}
+
+.exoTools .exoToolContent h1 {
+  color: #ffffff;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  .exoTools img {
+    display: none;
+  }
+  .exoTools .exoToolContent {
+    padding: 10px;
+  }
+  .exoTools .exoToolContent h1 {
+    padding: 20px;
+    text-align: center;
+  }
+  .exoTools .exoToolContent p {
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+.exoMarket {
+  margin-top: 100px;
+}
+
+.exoMarket .exoMarketHead h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .exoMarket .exoMarketHead h1 {
+    font-size: 30px;
+  }
+}
+
+.exoMarket .exoMarketHead h2 {
+  color: #87deea;
+  text-align: center;
+  font-style: 36px;
+  font-weight: 700;
+}
+
+.exoMarket .row {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.exoMarket .row .exoMarketCard {
+  margin-top: 50px;
+  background-image: url(images/cardbg.png);
+  background-color: linear-gradient(0deg, rgba(2, 70, 117, 0.8), rgba(2, 70, 117, 0.8)), url(/static/media/bgquestionare.65c212d4.png);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .exoMarket .row .exoMarketCard {
+    padding: 20px;
+  }
+}
+
+.exoMarket .row .exoMarketCard p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .exoMarket {
+    width: 100%;
+  }
+}
+
+.EXOToken {
+  background-image: url(images/bg3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+}
+
+.EXOToken .exoTokenContent {
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .EXOToken .exoTokenContent {
+    padding: 10px 20px;
+  }
+}
+
+.EXOToken .exoTokenContent h1 {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .EXOToken .exoTokenContent h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .EXOToken {
+    width: 100%;
+  }
+}
+
+.exoWork {
+  background-image: url(images/bg3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exoWork h1 {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .exoWork h1 {
+    font-size: 30px;
+  }
+}
+
+.exoWork p {
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .exoWork p {
+    font-size: 18px;
+  }
+}
+
+.exoWork .exoWorkContent {
+  margin-top: 50px;
+}
+
+.exoWork .exoWorkContent i {
+  font-weight: 700;
+  font-size: 30px;
+  color: #87deea;
+  margin-right: 20px;
+}
+
+.exoWork .exoWorkContent p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.exoWork .exoWorkContent ul {
+  margin-left: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .exoWork .exoWorkContent ul {
+    margin-left: 10px;
+  }
+}
+
+.howWork {
+  background-image: url(images/howbg.png);
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.howWork .white-box {
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  border-radius: 18px;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .howWork .white-box {
+    width: 100%;
+  }
+}
+
+.howWork h1 {
+  text-align: center;
+}
+
+.howWork p {
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+}
+
+.howToText {
+  padding: 50px 0;
+}
+
+.howToText h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.howToText p {
+  text-align: justify;
+}
+
+footer {
+  background-color: #12150e;
+  padding: 8px 0;
+}
+
+footer img {
+  width: 50px;
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #87deea;
+}
+/*# sourceMappingURL=style.css.map */
